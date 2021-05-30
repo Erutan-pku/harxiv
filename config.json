@@ -1,0 +1,16 @@
+{
+  "spider": {
+    "domain": "cs.CL", 
+    "top_n" : 9999
+  },
+  "ignore_subj": ["Sound (cs.SD)", "Audio and Speech Processing (eess.AS)"],
+  "ignore_desp": ["INTERSPEECH"],
+  "title_highlight": [
+    ["lower_weight", ["Summarization", "Machine Translation"]],
+    ["blue", ["Named Entity Recognition"]],
+    ["red", ["Question Answering", "Question Generation", "Reading Comprehension"]]
+  ],
+  "author_highlight": [
+    ["red", ["Zhiyuan Liu", "Maosong Sun"]]
+  ]
+}
