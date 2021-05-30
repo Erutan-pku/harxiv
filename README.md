@@ -28,20 +28,34 @@
 
 See config.json. You can change the subject (spider:domain)，ignore some subject or some conference name in description (ignore_subj and ignore_desp), highlight some phrase in title, or highlight some author.
 
-> {
->   "spider": {
->     "domain": "cs.CL", 
->     "top_n" : 9999 
->   }, 
->   "ignore_subj": ["Sound (cs.SD)", "Audio and Speech Processing (eess.AS)"],
->   "ignore_desp": ["INTERSPEECH"],
->   "title_highlight": [
->     ["lower_weight", ["Summarization", "Machine Translation"]],
->     ["blue", ["Named Entity Recognition"]],
->     ["red", ["Question Answering", "Question Generation", "Reading Comprehension"]]
->   ],
->   "author_highlight": [
->     ["red", ["Zhiyuan Liu", "Maosong Sun"]]
->   ]
-> }
-
+    {
+    
+      "spider": {
+      
+        "domain": "cs.CL", 
+        
+        "top_n" : 9999 
+        
+      },
+       
+      "ignore_subj": ["Sound (cs.SD)", "Audio and Speech Processing (eess.AS)"],
+      
+      "ignore_desp": ["INTERSPEECH"],
+      
+      "title_highlight": [
+      
+        ["lower_weight", ["Summarization", "Machine Translation"]],
+        
+        ["blue", ["Named Entity Recognition"]],
+        
+        ["red", ["Question Answering", "Question Generation", "Reading Comprehension"]]
+        
+      ],
+      
+      "author_highlight": [
+      
+        ["red", ["Zhiyuan Liu", "Maosong Sun"]]
+        
+      ]
+      
+    }
